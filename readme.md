@@ -1,5 +1,5 @@
 # Node.js Web Application
-The following are instructions on creating a simple web application and deploying it to a remote server. The application will be built on Node.js with Express, and hosted on Heroku. 
+The following are instructions on creating a simple web application and deploying it to a remote server. The application will be built on Node.js with Express, and hosted on Cyclic. 
 
 ## Pre-requisites
 You will need the following installed on your local machine:
