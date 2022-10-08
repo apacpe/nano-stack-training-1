@@ -96,18 +96,21 @@ app.get("/", function(req, res){
 4. Press Ctrl + C in the terminal to stop running the app if you used `node app.js` to start the app
 
 ### Deploy application to Cyclic
-1. Log into Github and create a new public repository. Copy the SSH URL to your git repo 
-eg. git@github.com:[your username]/[your repo name].git
+1. Log into Github and create a new public repository. Copy the HTTPS URL of your git repo 
+eg. https://github.com/[your username]/[your repo name].git
 
 ```
 git init 
 git add .
 git commit -m “first commit”
-git remote add origin git@github.com:[your username]/[your repo name].git
+git remote add origin https://github.com/[your username]/[your repo name].git
+git push origin master
 ```
-2. Push the application files in your local git repository to github using `git push origin master`
-3. Log into Cyclic > click on the Link your own tab > link the repository you have just created > Approve & Install
-4. Your web application is now accessible on a public URL i.e. https://dark-bee-dirndl.cyclic.app/
+2. You will be prompted to enter your GitHub username and password
+3. Go to your GitHub Settings > Developer Settings > Personal Access Token
+4. Generate a new token with all permissions and no expiry date. Enter this token as your password.
+5. Log into Cyclic > click on the Link your own tab > link the repository you have just created > Approve & Install
+6. Your web application is now accessible on a public URL i.e. https://dark-bee-dirndl.cyclic.app/
 
 ## Project directory structure
 Your final project directory should have the following structure:
