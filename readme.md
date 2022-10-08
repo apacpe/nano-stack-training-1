@@ -97,7 +97,7 @@ app.get("/", function(req, res){
 
 ### Deploy application to Cyclic
 1. Log into Github and create a new public repository. Copy the HTTPS URL of your git repo 
-eg. https://github.com/[your username]/[your repo name].git
+eg. https://github.com/(your username)/(your repo name).git
 
 ```
 git init 
@@ -107,7 +107,7 @@ git remote add origin https://github.com/[your username]/[your repo name].git
 git push origin master
 ```
 2. You will be prompted to enter your GitHub username and password
-3. Go to your GitHub Settings > Developer Settings > Personal Access Token
+3. Go to your GitHub Settings > Developer Settings > [Personal Access Token](https://github.com/settings/tokens)
 4. Generate a new token with all permissions and no expiry date. Enter this token as your password.
 5. Log into Cyclic > click on the Link your own tab > link the repository you have just created > Approve & Install
 6. Your web application is now accessible on a public URL i.e. https://dark-bee-dirndl.cyclic.app/
