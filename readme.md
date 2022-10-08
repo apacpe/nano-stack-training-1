@@ -97,7 +97,7 @@ app.get("/", function(req, res){
 
 ### Deploy application to Cyclic
 1. Log into Github and create a new public repository. Copy the HTTPS URL of your git repo 
-eg. https://github.com/(your username)/(your repo name).git
+eg. https://github.com/[your username]/[your repo name].git
 
 ```
 git init 
