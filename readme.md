@@ -96,6 +96,20 @@ app.get("/", function(req, res){
 4. Press Ctrl + C in the terminal to stop running the app if you used `node app.js` to start the app
 
 
+### Update package.json file to point to app.js
+
+By default, package.json sets the "Main" field as "index.js". The "Main" field is the module ID that is the entry point to your app. We will need to update this to "app.js" instead.
+
+1. In your code editor, open the package.json file
+2. Change the following line
+```
+ "main": "index.js",
+```
+to
+```
+ "main": "app.js",
+```
+
 ### Git set up
 
 1. In your terminal, set your Git user name and email address.
