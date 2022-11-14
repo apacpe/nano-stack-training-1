@@ -95,6 +95,7 @@ app.get("/", function(req, res){
 3. Access localhost:3000 on your browser and it should display a page based on the HTML codes you inserted in the page template
 4. Press Ctrl + C in the terminal to stop running the app if you used `node app.js` to start the app
 
+
 ### Git set up
 
 1. In your terminal, set your Git user name and email address.
