@@ -103,7 +103,7 @@ git config --global user.name "John Doe"
 git config --global user.email "johndoe@example.com"
 ```
 
-#### Deploy application to Cyclic
+### Deploy application to Cyclic
 1. Log into Github and create a new public repository. Copy the HTTPS URL of your git repo 
 eg. https://github.com/[your username]/[your repo name].git
 
